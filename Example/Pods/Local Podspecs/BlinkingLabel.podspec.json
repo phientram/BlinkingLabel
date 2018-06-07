@@ -1,15 +1,16 @@
 {
   "name": "BlinkingLabel",
   "version": "0.1.0",
-  "summary": "A short description of BlinkingLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A subclass on UILabel that provides a blink.",
+  "swift_version": "4.0",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
   "homepage": "https://github.com/phientram/BlinkingLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "phientram": "phien.tram@hubcba.com"
+    "Phien Tram": "phientram@me.com"
   },
   "source": {
     "git": "https://github.com/phientram/BlinkingLabel.git",

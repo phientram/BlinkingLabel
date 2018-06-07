@@ -1,28 +1,46 @@
 # BlinkingLabel
 
-[![CI Status](https://img.shields.io/travis/phientram/BlinkingLabel.svg?style=flat)](https://travis-ci.org/phientram/BlinkingLabel)
-[![Version](https://img.shields.io/cocoapods/v/BlinkingLabel.svg?style=flat)](https://cocoapods.org/pods/BlinkingLabel)
-[![License](https://img.shields.io/cocoapods/l/BlinkingLabel.svg?style=flat)](https://cocoapods.org/pods/BlinkingLabel)
-[![Platform](https://img.shields.io/cocoapods/p/BlinkingLabel.svg?style=flat)](https://cocoapods.org/pods/BlinkingLabel)
+[![Version](https://img.shields.io/cocoapods/v/BlinkingLabel.svg?style=flat)](http://cocoapods.org/pods/BlinkingLabel)
+[![License](https://img.shields.io/cocoapods/l/BlinkingLabel.svg?style=flat)](http://cocoapods.org/pods/BlinkingLabel)
+[![Platform](https://img.shields.io/cocoapods/p/BlinkingLabel.svg?style=flat)](http://cocoapods.org/pods/BlinkingLabel)
 
-## Example
+## Overview
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+BlinkingLabel is a subclass of UILabel, written in Swift, that enables the UILabel to blink.
+
+![](blinkinglabel.gif?raw=true "Blinking Label screenshot")
 
 ## Requirements
+* ARC
+* iOS8
 
-## Installation
+## Installation with CocoaPods
 
-BlinkingLabel is available through [CocoaPods](https://cocoapods.org). To install
+BlinkingLabel is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BlinkingLabel'
+pod "BlinkingLabel"
 ```
+
+## Usage
+
+```Swift
+import BlinkingLabel
+
+let labelThatBlinks = BlinkingLabel()
+labelThatBlinks.startBlinking()
+labelThatBlinks.stopBlinking()
+
+```
+
+## Example Project
+
+An example project is included with this repo.  To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
-phientram, phien.tram@hubcba.com
+Andy Obusek
 
 ## License
 
